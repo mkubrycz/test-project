@@ -7,13 +7,45 @@
     <link href='css/main.css' rel='stylesheet'>
 </head>
 
+<!--I've decided to use bootstrap with this task because I've never used it before :) assumed this is good time to learn it.
+Bootstrap is also very user friendly and gives a lot of shortcuts writing html.-->
 
 <body>
    
-   <div class="container">
-       
-       
-   </div>
+   <div class="navbar">
+     <div class="container">
+           <div id="header" class="row">
+            <div class="col-md-1">
+              <a href="#">
+                <span id="back-button" class="glyphicon glyphicon-menu-left"></span>
+                <span class="sr-only">Back</span>
+              </a>
+            </div>
+            <div class="col-md-offset-1 col-md-2">
+              <div class="navbar-brand">QUESTIONS</div>
+            </div>
+            <div class="col-md-1">
+              <a href="#">
+                <span id="add-question" class="glyphicon glyphicon-plus-sign"></span>
+                <span class="sr-only">Add</span>
+              </a>
+            </div>
+            <div class="col-md-3">
+                <label class="radio">
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> My shelf
+                </label>
+                <label class="radio">
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> All questions
+                </label>
+                
+            </div>
+          </div>
+          <div class="row">
+              
+          </div>
+      </div>        
+     </div>
+   
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
