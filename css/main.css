@@ -1,14 +1,21 @@
 body {
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
+    background-color: #ffe1ad;
 }
 
-#header {
+#header-top {
     margin-top: 40px;
+}
+#header-top>div, #header-bottom>div {
     height: 50px;
 }
 
+#header-bottom {
+    margin-top: 10px;
+}
+
 #back-button {
-    font-size: 50px;
+    font-size: 45px;
     color: #acaeb1;
 }
 #back-button:hover {
@@ -20,7 +27,36 @@ body {
     font-size: 30px;
 }
 
-.navbar-brand {
-    font-size: 30px;
-    font-weight: bold;
+.element-controll {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+
+.text-input-controll {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.fancy-text {
+    font-size: 16px;
+    font-family: serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn-search {
+    width: 100%;
+    padding: 8px;
+    background: #fff;
+    color: #acaeb1;
+    border: 1px solid #acaeb1;
+    border-radius: 0;
+}
+
+.btn-search:hover {
+    color: #616264;
+    border-color: #616264;
 }

@@ -1,0 +1,12 @@
+/* All CSS methods that overwrites original bootstrap ones
+just for keeping them in one place*/
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #ffffff;
+    margin-bottom: 0;
+}

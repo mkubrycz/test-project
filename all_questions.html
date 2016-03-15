@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Q-Base</title>
-    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/band-aid.css" rel="stylesheet">
     <link href='css/main.css' rel='stylesheet'>
 </head>
 
 <!--I've decided to use bootstrap with this task because I've never used it before :) assumed this is good time to learn it.
-Bootstrap is also very user friendly and gives a lot of shortcuts writing html.-->
+Bootstrap is also very user friendly and gives a lot of shortcuts writing html.
+
+Besides this is my first 'real' project. All I've done before is online courses and couple allegro auctions styling ;)-->
 
 <body>
    
    <div class="navbar">
      <div class="container">
-           <div id="header" class="row">
+           <div id="header-top" class="row">
             <div class="col-md-1">
               <a href="#">
                 <span id="back-button" class="glyphicon glyphicon-menu-left"></span>
@@ -30,23 +35,39 @@ Bootstrap is also very user friendly and gives a lot of shortcuts writing html.-
                 <span class="sr-only">Add</span>
               </a>
             </div>
-            <div class="col-md-3">
-                <label class="radio">
-                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> My shelf
-                </label>
-                <label class="radio">
-                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2"> All questions
-                </label>
-                
+            <div id="radio-container" class="col-md-3">
+                <div class="radio element-controll">
+                    <label class="radio-inline">
+                      <input type="radio" name="optRadios" checked> My shelf
+                    </label>
+                    <label class="radio-inline">
+                      <input type="radio" name="optRadios"> All questions
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <span class="fancy-text element-controll">Sort by: <a href="#">recent</a> or <a href="#">hot</a></span>
             </div>
           </div>
-          <div class="row">
-              
+          <div id="header-bottom" class="row">
+            <div class="col-md-offset-2 col-md-6">
+                <input class="text-input-controll" type="text" placeholder="Search questions">
+            </div>
+            <div class="col-md-2">
+               <button class="btn btn-search">SEARCH</button>                
+            </div>
           </div>
       </div>        
      </div>
+     
+     <div class="container">
+        <div class=" col-md-offset-2 col-md-8 col-xs-offset-0 col-xs-12">
+            
+        </div>
+         
+     </div>
    
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
