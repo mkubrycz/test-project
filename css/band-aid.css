@@ -9,4 +9,5 @@ just for keeping them in one place*/
 .navbar {
     background-color: #ffffff;
     margin-bottom: 0;
+    z-index: 10;
 }

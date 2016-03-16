@@ -1,7 +1,10 @@
 body {
-    font-family: Tahoma, sans-serif;
+    font-family: Rotice, Tahoma, sans-serif;
     background-color: #ffe1ad;
 }
+
+
+/* header realted css*/
 
 #header-top {
     margin-top: 40px;
@@ -27,26 +30,6 @@ body {
     font-size: 30px;
 }
 
-.element-controll {
-    position: absolute;
-    bottom: 0px;
-    right: 15px;
-}
-
-.text-input-controll {
-    padding: 8px;
-    width: 100%;
-    border: 1px solid lightgray;
-}
-
-.fancy-text {
-    font-size: 16px;
-    font-family: serif;
-    font-style: italic;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
 .btn-search {
     width: 100%;
     padding: 8px;
@@ -60,3 +43,69 @@ body {
     color: #616264;
     border-color: #616264;
 }
+
+/* some useful universal methods */
+
+.element-control {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+
+.text-input-control {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.fancy-text {
+    font-size: 16px;
+    font-family: serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.shadow-right {
+    box-shadow: 2px -2px 3px -2px #e5e5e5;
+}
+
+/* questions list related css*/
+
+.body-background {
+    background-color: #fbfbfb;
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+
+.questions-background {
+    background-color: #fff;
+    min-height: inherit;
+    
+}
+
+/* questions list elements css*/
+
+
+.question-asked {
+    background-color: #dff3fd;
+}
+
+.questions-footer {
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    right: 0;
+    height: 100px;
+}
+
+.load-questions {
+    position: absolute;
+    font-weight: bold;
+    color: #dc173f;
+    top: 35px;
+    left: 15px;
+}
+.load-questions:hover {
+    text-decoration: none;
+}
+
