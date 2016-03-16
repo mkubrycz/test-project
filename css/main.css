@@ -30,6 +30,10 @@ body {
     font-size: 30px;
 }
 
+.first-radio-inline {
+    margin-left: 10px;
+}
+
 .btn-search {
     width: 100%;
     padding: 8px;
@@ -74,7 +78,6 @@ body {
 
 .body-background {
     background-color: #fbfbfb;
-    min-height: 500px;
     margin-bottom: 50px;
 }
 
@@ -93,9 +96,8 @@ body {
 
 .questions-footer {
     border-top: 1px solid #e5e5e5;
-    width: 100%;
-    right: 0;
     height: 100px;
+    background-color: #fff;
 }
 
 .load-questions {
