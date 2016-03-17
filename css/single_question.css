@@ -1,0 +1,137 @@
+body {
+    font-family: Rotice, Tahoma, sans-serif;
+    background-color: #ffe1ad;
+    color: #333;
+}
+
+/* for maintaining whole page height */
+
+.container {
+    min-height: 100%;
+}
+
+/* header realted css*/
+
+.header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.header>div {
+    height: 50px;
+}
+
+.back-button {
+    font-size: 45px;
+    color: #ececed;
+}
+.back-button:hover {
+    color: #a7a9ac;
+}
+
+.add-question {
+    margin: 10px;
+    font-size: 30px;
+}
+
+/* some useful universal methods */
+
+.count {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.fat-font {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.z-9 {
+    z-index: 9;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.background-white{
+    background-color: #fff;
+}
+
+.background-blue {
+    background-color: #dff3fd;
+}
+
+.height-100 {
+    height: 100px;
+}
+
+.element-control {
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+
+.text-input-control {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.fancy-text {
+    font-size: 16px;
+    font-family: serif;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.shadow-right {
+    box-shadow: 2px -2px 3px -2px #e5e5e5;
+}
+
+.no-deco:hover {
+    text-decoration: none;
+}
+
+.text-blue {
+    color: #0266b9;
+}
+a.text-blue:hover, a .text-blue:hover {
+    color: #23527c;
+}
+
+.text-gray {
+    font-size: 10px;
+    color: #a7a9ac;
+}
+
+/* questions list elements css */
+
+.body-background {
+    background-color: #fbfbfb;
+}
+
+.question-padding {
+    height: 40px;
+    background-color: #fff;
+}
+
+.profile_photo {
+    width: 60px;
+    margin: 20px 10px;
+}
