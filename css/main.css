@@ -1,37 +1,34 @@
 body {
     font-family: Rotice, Tahoma, sans-serif;
     background-color: #ffe1ad;
+    color: #333;
 }
 
 
 /* header realted css*/
 
-#header-top {
+.header-top {
     margin-top: 40px;
 }
-#header-top>div, #header-bottom>div {
+.header-top>div, .header-bottom>div {
     height: 50px;
 }
 
-#header-bottom {
+.header-bottom {
     margin-top: 10px;
 }
 
-#back-button {
+.back-button {
     font-size: 45px;
     color: #ececed;
 }
-#back-button:hover {
+.back-button:hover {
     color: #a7a9ac;
 }
 
-#add-question {
+.add-question {
     margin: 10px;
     font-size: 30px;
-}
-
-.first-radio-inline {
-    margin-left: 10px;
 }
 
 .btn-search {
@@ -55,6 +52,11 @@ body {
     font-weight: bold;
 }
 
+.fat-font {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .z-10 {
     z-index: 10;
 }
@@ -63,8 +65,24 @@ body {
     z-index: 9;
 }
 
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
 .background-white{
     background-color: #fff;
+}
+
+.background-blue {
+    background-color: #dff3fd;
 }
 
 .height-100 {
@@ -95,24 +113,27 @@ body {
     box-shadow: 2px -2px 3px -2px #e5e5e5;
 }
 
-/* questions list related css*/
-
-.body-background {
-    background-color: #fbfbfb;
-    margin-bottom: 50px;
+.no-deco:hover {
+    text-decoration: none;
 }
 
-.questions-background {
-    background-color: #fff;
-    min-height: inherit;
-    
+.text-blue {
+    color: #0266b9;
+}
+a.text-blue:hover, a .text-blue:hover {
+    color: #23527c;
+}
+
+.text-gray {
+    font-size: 10px;
+    color: #a7a9ac;
 }
 
 /* questions list elements css */
 
-
-.question-blue {
-    background-color: #dff3fd;
+.body-background {
+    background-color: #fbfbfb;
+    margin-bottom: 50px;
 }
 
 .question-padding {
@@ -149,23 +170,19 @@ body {
     text-align: center;
     border-top: solid 1px #333;
     padding-top: 10px;
-    color: #333;
+    color: #a7a9ac;
 }
 
 .column-footer-more {
-    text-align: center;
     position: absolute;
     width: 80%;
     bottom: 10px;
     left: 10%;
     text-align: center;
     padding-top: 10px;
-    color: #333;
 }
 
 .column-footer-more-count {
-    font-size: 16px;
-    font-weight: bold;
     text-align: center;
     position: absolute;
     width: 40%;
@@ -184,8 +201,8 @@ body {
 }
 
 .column-answer {
-    margin-top: 20px;
-    height: 180px;
+    margin-top: 30px;
+    height: 170px;
     width: 100%;
     border-left: solid 5px #fff;
     border-right: solid 5px #fff;
@@ -232,8 +249,5 @@ body {
     color: #dc173f;
     top: 35px;
     left: 15px;
-}
-.load-questions:hover {
-    text-decoration: none;
 }
 

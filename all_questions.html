@@ -19,23 +19,23 @@ Besides this is my first 'real' project. All I've done before is online courses 
    
 <div class="navbar">
     <div class="container">
-        <div id="header-top" class="row">
+        <div class="row header-top">
             <div class="col-md-1">
                 <a href="#">
-                    <span id="back-button" class="glyphicon glyphicon-menu-left"></span>
+                    <span class="glyphicon glyphicon-menu-left back-button"></span>
                     <span class="sr-only">Back</span>
                 </a>
             </div>
             <div class="col-xs-12 col-sm-5 col-lg-offset-1 col-md-4 col-lg-3">
                 <div class="navbar-brand">QUESTIONS</div>
                 <a href="#">
-                    <span id="add-question" class="glyphicon glyphicon-plus-sign"></span>
+                    <span class="glyphicon glyphicon-plus-sign add-question text-blue"></span>
                     <span class="sr-only">Add</span>
                 </a>
             </div>
-            <div id="radio-container" class="col-xs-6 col-sm-4 col-md-offset-1 col-md-3 col-lg-offset-0">
+            <div class="col-xs-6 col-sm-4 col-md-offset-1 col-md-3 col-lg-offset-0">
                 <div class="radio element-control">
-                    <label class="radio-inline first-radio-inline">
+                    <label class="radio-inline margin-left-10">
                         <input type="radio" name="optRadios" checked> My shelf
                     </label>
                     <label class="radio-inline">
@@ -44,11 +44,11 @@ Besides this is my first 'real' project. All I've done before is online courses 
                 </div>
             </div>
             <div class="col-xs-6  col-sm-3 col-md-2">
-                <span class="fancy-text element-control">Sort by: <a href="#">recent</a> or <a href="#">hot</a></span>
+                <span class="fancy-text element-control">Sort by: <a class="text-blue" href="#">recent</a> or <a class="text-blue" href="#">hot</a></span>
             </div>
         </div>
         
-        <div id="header-bottom" class="row">
+        <div class="row header-bottom">
             <div class="col-md-offset-1 col-md-8 col-lg-offset-2 col-lg-6">
                 <input class="text-input-control" type="text" placeholder="Search questions">
             </div>
@@ -59,24 +59,39 @@ Besides this is my first 'real' project. All I've done before is online courses 
     </div>        
 </div>
 
-<!-- after setting up responsiveness for my header I must say that Bootstrap is brilliant! It was easy  (maybe it's not perfect but still) -->
+<!-- after setting up responsiveness for my header I must say that Bootstrap is brilliant! It was easy  (maybe it's not perfect but still)
+     I have changed responsive versions of question box due to boostrap's column layout. That way it was easier for me and it looks better in my opinion -->
  
 <div class="container body-background shadow-right">
     <div class="row ">
-       <div class="question-blue col-md-offset-1 col-md-8 col-lg-offset-2 col-lg-6">
+       <div class="background-blue col-md-offset-1 col-lg-offset-2 col-xs-3 col-sm-2 col-lg-1">
            <img src="pictures/doctor_banner.jpg" alt="doctor_banner" class="img-circle profile_photo">
+       </div>
+       <div class="height-100 background-blue shadow-right col-xs-9 col-sm-10 col-md-6 col-lg-5">
+           <div class="margin-top-20">
+               <a id="username" class="no-deco text-blue" href="#">
+                   <b>Bruce</b>
+               </a>
+               <span class="text-gray">IS ASNKING:</span>
+           </div>
+           <div>
+               <a id="question" class="no-deco text-blue fancy-text">
+                   <span class=" fat-font"><b>Will insuline make my patient gain weight?</b></span>
+               </a>
+           </div>
        </div>
        <div class="col-md-2 visible-lg visible-md background-white height-100 shadow-right z-9"></div>
     </div>
     <div class="row">
-        <div class="question-blue col-md-offset-1 col-lg-offset-2 col-xs-3 col-sm-2 col-lg-1 hidden-md hidden-xs">
+        <div class="background-blue col-md-offset-1 col-lg-offset-2 col-xs-3 col-sm-2 col-lg-1 hidden-md hidden-xs">
             <div class="question-column">
                 <div class="column-footer-commented">ASKED</div>
                 <div class="column-dot-commented"></div>
             </div>
         </div>
         <div class="question-column background-white col-xs-3 col-sm-2 col-md-2 col-lg-1 col-md-offset-1 col-lg-offset-0">
-            <div class="column-footer-more-count">5</div>
+            <div class="column-answer visible-md visible-xs"></div>
+            <div class="column-footer-more-count count">5</div>
             <div class="column-footer-more fancy-text">more<br>activities</div>
             <div class="column-dot-commented"></div>
         </div>
@@ -129,7 +144,7 @@ Besides this is my first 'real' project. All I've done before is online courses 
        
     <div class="row">
         <div class="col-md-offset-1 col-lg-offset-2 col-md-10 col-lg-8 col-xs-offset-0 col-xs-12 questions-footer shadow-right">
-            <a class="load-questions">load more questions</a>
+            <a class="no-deco load-questions">load more questions</a>
         </div>
     </div>
     
